@@ -1,0 +1,12 @@
+{
+  "counters": {
+    "bytes": {
+      "bits": 8,
+      "unit": "byte",
+      "maximum_rate_per_second": 20
+    }
+  },
+  "ambiguity_case_maximum_rate": 300,
+  "time_origin": "2026-11-10T23:59:59+08:00",
+  "daily_timezone": "Asia/Shanghai"
+}

@@ -1,0 +1,12 @@
+[
+  {
+    "path": "fixtures/counters.json",
+    "sha256": "cc8fcfda521384426eaf27ce09157f75615353f6ef9c0ba554155508ce8024d6",
+    "size_bytes": 241
+  },
+  {
+    "path": "fixtures/samples.csv",
+    "sha256": "c30a35b604b8879012a60e39ce9fa660eee7768bdf9e4dd67fea7c1c631fb9b4",
+    "size_bytes": 211
+  }
+]

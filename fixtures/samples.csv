@@ -1,0 +1,7 @@
+device,counter,sample_id,revision,event_seconds,boot_id,raw
+d1,bytes,s0,1,0,boot1,250
+d1,bytes,s1,1,1,boot1,5
+d1,bytes,s05,1,0.5,boot1,255
+d1,bytes,s2,1,2,boot2,4
+d1,bytes,s3,1,3,boot2,8
+d1,bytes,s3,2,3,boot2,9
