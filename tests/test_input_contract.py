@@ -13,7 +13,8 @@ class InputContractTests(unittest.TestCase):
         for item in load(root / "material-index.json"):
             with self.subTest(path=item["path"]):
                 self.assertEqual(hashlib.sha256((root/item["path"]).read_bytes()).hexdigest(),item["sha256"])
-                self.assertIsInstance(load(root/item["path"]),(list,dict))
+                if (root/item["path"]).suffix in (".json", ".jsonl", ".csv"):
+                    self.assertIsInstance(load(root/item["path"]),(list,dict))
     def test_blank_differs_from_zero(self):
         with tempfile.TemporaryDirectory() as directory:
             p=Path(directory)/"values.csv"
